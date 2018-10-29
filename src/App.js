@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 
 import Login from './components/Login';
 import Profile from './components/Profile';
-
-export const AuthContext = React.createContext({
-  isAuth: false,
-  toggleAuth: () => {},
-});
+import AuthContext from './auth-context';
 
 class App extends Component {
   state = {
