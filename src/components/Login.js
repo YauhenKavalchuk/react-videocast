@@ -4,12 +4,10 @@ const Login = ({ onLogIn, onLogOut, isAuth }) => {
   console.log(isAuth);
   return (
     <Fragment>
-      {!isAuth ?
-        <button onClick={onLogIn}>LogIn</button> :
-        <button onClick={onLogOut}>LogOut</button>
-      }
+      <button onClick={onLogIn}>LogIn</button>
+      <button onClick={onLogOut}>LogOut</button>
     </Fragment>
   );
 }
 
-export default Login;
+export default React.memo(Login);
