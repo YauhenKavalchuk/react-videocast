@@ -1,21 +1,15 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
 
-import AuthContext from '../auth-context';
-
-class Login extends Component {
-
-  static contextType = AuthContext;
-
-  render() {
-
-    const { toggleAuth, isAuth } = this.context;
-
-    return (
-      <button onClick={toggleAuth}>
-        {!isAuth ? 'Login' : 'Logout'}
-      </button>
-    );
-  }
+const Login = ({ onLogIn, onLogOut, isAuth }) => {
+  console.log(isAuth);
+  return (
+    <Fragment>
+      {!isAuth ?
+        <button onClick={onLogIn}>LogIn</button> :
+        <button onClick={onLogOut}>LogOut</button>
+      }
+    </Fragment>
+  );
 }
 
 export default Login;
