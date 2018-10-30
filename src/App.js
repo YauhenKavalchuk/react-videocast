@@ -1,25 +1,23 @@
-import React, { Fragment, Component } from 'react';
-import { BrowserRouter, Route, NavLink } from 'react-router-dom';
-
-import Home from './components/home';
-import Profile from './components/profile';
-import Contacts from './components/contacts';
+import React, { Component } from 'react';
 
 class App extends Component {
+
+  state = { hasError: false };
+
+  static getDerivedStateFromError(error) {
+    console.log(error);
+    return { hasError: true };
+  }
+
   render() {
-    return (
-      <BrowserRouter>
-        <Fragment>
-          <nav>
-            <NavLink style={{marginRight: '20px'}} to="/profile">Profile Page</NavLink>
-            <NavLink to="/contacts">Contacts Page</NavLink>
-          </nav>
-          <Route path="/" exact component={Home} />
-          <Route path="/profile" component={Profile} />
-          <Route path="/contacts" component={Contacts} />
-        </Fragment>
-      </BrowserRouter>
-    );
+    const { children } = this.props;
+    const { hasError } = this.state;
+
+    if (hasError) {
+      return <h1>Something went wrong.</h1>;
+    }
+
+    return children;
   }
 }
 
