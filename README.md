@@ -28,6 +28,7 @@ Social network | Link to Profile
 - `git checkout podcast_01_memo_end`
 - `git checkout podcast_01_lazy_start`
 - `git checkout podcast_01_lazy_end`
+- `git checkout podcast_01_getDerivedStateFromError_end`
 
 ### Интересные статьи:
 - [React v16.6.0: lazy, memo and contextType](https://reactjs.org/blog/2018/10/23/react-v-16-6.html)
