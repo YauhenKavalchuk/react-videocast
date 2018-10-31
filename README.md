@@ -1,4 +1,6 @@
+
 #  React Podcasts
+Материал для серии подкастов посвящённых библиотеке **ReactJS**. В данных подкастах рассматриваются новые версии библиотеки, обновлённые и добавленные возможности. А так же функциональности которые устаревают. Держите руку на пульсе последних обновлений и подписывайтесь на [YouTube канал](https://youtube.com/c/YauhenKavalchuk)!
 
 ### Быстрый старт
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/react-podcasts.git`
@@ -14,12 +16,15 @@ Social network | Link to Profile
 **VK:** | [<img src="http://pngimg.com/uploads/vkontakte/vkontakte_PNG27.png" height="25" />](http://vk.com/YauhenKavalchuk)
 **Twitter:** | [<img src="https://logos-download.com/wp-content/uploads/2016/02/Twitter_logo_bird_transparent_png.png" height="25" />](https://twitter.com/YauhenKavalchuk)
 
-## React Podcast #01: React 16.6 New Features (Новые возможности):
+## React Podcast #1: React 16.6 New Features (Новые возможности):
 В этом подкасте мы с вами поговорим о том что нового появилось в представленной версии реакта 16.6.0.
 В данном обновлении можно отметить 3 очень интересные фичи, которые мы с вами рассмотрим:
 - **static contextType** - Статическое свойство для работы с контекстом.
 - **React.memo()** - Метод, который помогает увеличить перфоманс функциональных компонентов.
 - **React.lazy()** - Метод из нового API - React suspense, который помогает грузить компоненты асинхронно.
+
+Так же, в не большое дополнение, мы рассмотрим ещё один статический метод:
+- **getDerivedStateFromError** - Это улучшенная функциональность метода *componentDidCatch* для отлавливания ошибок рендеринга в дочерних компонентах.
 
 ### Ветки Подкаста:
 - `git checkout podcast_01_context_start`
