@@ -2,22 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import Item from './Item';
 import { ThemeContext, PodcastContext } from './app-context';
 
-const App = () => {
-  const podcast = useContext(PodcastContext);
-  const theme = useContext(ThemeContext);
-  const [count, setCount] = useState(0);
-  const [value, changeValue] = useState('Test value');
+const useWindowWidth = () => {
   const [width, setWidth] = useState(window.innerWidth);
-  const [user, setUser] = useState(null);
-
-  const handleValueChange = (e) => {
-    changeValue(e.target.value);
-  }
-
-  useEffect(() => {
-    document.title = value;
-  });
-
   useEffect(() => {
     const handleWidth = setWidth(window.innerWidth)
     window.addEventListener('resize', handleWidth);
@@ -25,13 +11,38 @@ const App = () => {
       window.removeEventListener('resize', handleWidth);
     };
   });
+  return width;
+};
 
+const useDocumentTitle = (title) => {
+  useEffect(() => {
+    document.title = title;
+  });
+};
+
+const useUserFetch = (flag) => {
+  const [user, setUser] = useState(null);
   useEffect(async () => {
     const response = await fetch('https://api.randomuser.me/');
     const data = await response.json();
     const [item] = data.results;
     setUser(item);
-  }, [count]);
+  }, [flag]);
+  return user;
+};
+
+const App = () => {
+  const podcast = useContext(PodcastContext);
+  const theme = useContext(ThemeContext);
+  const [count, setCount] = useState(0);
+  const [value, changeValue] = useState('Test value');
+  const width = useWindowWidth();
+  const user = useUserFetch(count);
+  useDocumentTitle(value);
+
+  const handleValueChange = (e) => {
+    changeValue(e.target.value);
+  };
 
   return (
     <div className={`card ${theme}`}>
