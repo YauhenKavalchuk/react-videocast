@@ -4,4 +4,40 @@
 
 body {
   font-family: sans-serif;
+  background-color: #f0f0f1;
+  font-size: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  min-height: 600px;
+  padding: 30px 20px;
+  border: 1px solid #f8f8f8;
+}
+
+.card.space {
+  background-image: linear-gradient(45deg, #fca5f1, #b5ffff);
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  text-transform: uppercase;
+}
+
+.item:not(:last-child) {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.card.space .item:not(:last-child) {
+  border-bottom: 3px solid #fff;
+}
+
+.item-label {
+  margin-bottom: 10px;
 }
