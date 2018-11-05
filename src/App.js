@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div className={`card ${theme}`}>
-      <Item label="language">
+      <Item label="Podcast">
         <h4>{podcast}</h4>
       </Item>
 
