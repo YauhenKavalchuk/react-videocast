@@ -39,3 +39,25 @@ Social network | Link to Profile
 - [React v16.6.0: lazy, memo and contextType](https://reactjs.org/blog/2018/10/23/react-v-16-6.html)
 - [Understanding React “Suspense”](https://medium.com/@baphemot/understanding-react-suspense-1c73b4b0b1e6)
 - [Sneak Peek: Beyond React 16](https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html)
+
+
+## React Podcast #2: React Hooks A Complete Introduction (Полное введение в Хуки):
+В этом подкасте мы с вами рассмотрим такое понятие как **React Hook (Хук)**. Разберёмся зачем они нужны, синтаксис их создания, использования, а так же их особенности. Рассмотрим каким образом они расширяют функциональность и возможности функциональных Реакт-компонентов. Представленные хуки делятся на базовые и дополнительные, но мы с вами рассмотрим только базовые. Так как именно базовые хуки с большей вероятностью могут появится в ближайших обновлениях библиотеки React.
+К базовым хукам можно отнести:
+- **useContext** - Хук для использования контекста.
+- **useState** - Хук для использования стейта внутри функционального компонента.
+- **useEffect** - Хук, аналог методов жизненного цикла.
+
+А так же в небольшое дополнение мы рассмотрим создание пользовательских хуков.
+
+### Ветки Подкаста:
+- `git checkout podcast_02_useContext`
+- `git checkout podcast_02_useState`
+- `git checkout podcast_02_useEffect`
+- `git checkout podcast_02_customHooks`
+
+### Интересные статьи:
+- [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
+- [useHooks](https://usehooks.com/)
+- [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
