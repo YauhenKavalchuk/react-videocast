@@ -72,7 +72,7 @@ class App extends Component {
           <div className={`card ${theme}`}>
             <PodcastContext.Consumer>
               {podcast => (
-                <Item label="language">
+                <Item label="Podcast">
                   <h4>{podcast}</h4>
                 </Item>
               )}
