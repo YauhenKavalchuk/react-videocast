@@ -19,7 +19,7 @@ const App = () => {
   });
 
   useEffect(() => {
-    const handleWidth = setWidth(window.innerWidth)
+    const handleWidth = () => setWidth(window.innerWidth)
     window.addEventListener('resize', handleWidth);
     return () => {
       window.removeEventListener('resize', handleWidth);
