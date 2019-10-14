@@ -16,6 +16,21 @@ Social network | Link to Profile
 **VK:** | [<img src="http://pngimg.com/uploads/vkontakte/vkontakte_PNG27.png" height="25" />](http://vk.com/YauhenKavalchuk)
 **Twitter:** | [<img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" height="50" />](https://twitter.com/YauhenKavalchuk)
 
+## React Videocast #6: React 17 что ждать в новой версии?:
+Добро пожаловать в 6-й выпуск видео-каста, посвящённого библиотеке ReactJS.
+И в этом выпуске мы с вами обсудим примерный список обновлений будущей, ещё не представленной версии **React 17**:
+- Async Rendering;
+- Time Slicing;
+- React Suspense;
+- Lifecycle Methods;
+- Deprecations.
+
+Полезные ресурсы:
+- [Beyond React 16 | JSConf Iceland 2018](https://www.youtube.com/watch?v=nLF0n9SACd4)
+- [Concurrent Rendering in React | React Conf 2018](https://www.youtube.com/watch?v=ByBPyMBTzM0)
+- [Suspense! | ReactFest](https://www.youtube.com/watch?v=6g3g0Q_XVb4)
+- [React v16.9.0 and the Roadmap Update](https://ru.reactjs.org/blog/2019/08/08/react-v16.9.0.html)
+
 ## React Videocast #5: React Tools:
 Добро пожаловать в 5-й выпуск видео-каста, посвящённого библиотеки ReactJS. Я немного полазил по просторам интернета и постарался собрать коллекцию разнообразных тулов, которые будут полезны любому React разработчику. Т.к. в большинстве своём они призваны упростить, или ускорить разработку связанную с библиотекой React и её экосистемой.
 
