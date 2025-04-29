@@ -30,7 +30,18 @@
 [sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
 [patron]: https://www.patreon.com/YauhenKavalchuk
 
-## React Videocast #6: React 17 что ждать в новой версии?:
+### React Videocast #7: React мемоизация: memo, useMemo, useCallback:
+в данном выпуске мы подробно разберём, что представляют собой **React.memo**, **useCallback** и **useMemo**. Рассмотрим, в чём между ними сходство, чем они отличаются, где применяются, как связаны друг с другом. А так же варианты того, когда данные функции нужно применять, а когда от этого можно отказаться.
+
+#### Ветки Подкаста:
+- `git checkout podcast_07_react_memoization`
+
+Полезные ресурсы:
+- [React Developer Tools](https://react.dev/learn/react-developer-tools)
+
+---
+
+### React Videocast #6: React 17 что ждать в новой версии?:
 Добро пожаловать в 6-й выпуск видео-каста, посвящённого библиотеке ReactJS.
 И в этом выпуске мы с вами обсудим примерный список обновлений будущей, ещё не представленной версии **React 17**:
 - Async Rendering;
@@ -45,7 +56,9 @@
 - [Suspense! | ReactFest](https://www.youtube.com/watch?v=6g3g0Q_XVb4)
 - [React v16.9.0 and the Roadmap Update](https://ru.reactjs.org/blog/2019/08/08/react-v16.9.0.html)
 
-## React Videocast #5: React Tools:
+---
+
+### React Videocast #5: React Tools:
 Добро пожаловать в 5-й выпуск видео-каста, посвящённого библиотеки ReactJS. Я немного полазил по просторам интернета и постарался собрать коллекцию разнообразных тулов, которые будут полезны любому React разработчику. Т.к. в большинстве своём они призваны упростить, или ускорить разработку связанную с библиотекой React и её экосистемой.
 
 Полезные ресурсы:
@@ -66,7 +79,9 @@
 - [Proton Native](https://proton-native.js.org/#/)
 - [Devhints React.js cheatsheet](https://devhints.io/react)
 
-## React Videocast #4: React Patterns (Реакт Паттерны):
+---
+
+### React Videocast #4: React Patterns (Реакт Паттерны):
 В этом 4-м выпуск видео-каста, посвящённого библиотеки ReactJS, мы с вами рассмотрим самые распространённые и используемые паттерны этой библиотеки. Паттерн - это архитектурная конструкция, представляющая собой решение проблемы в рамкам определенного контекста. Паттерн спокойно можно называть Best Practice - поскольку это самое оптимальное, универсальное и довольно узнаваемое решение.
 
 Описанные паттерны:
@@ -86,13 +101,15 @@
 - **Event switch** - Переключатель событий.
 - **Higher-order component** - Компоненты высшего порядка.
 
-### Ветки Подкаста:
+#### Ветки Подкаста:
 - `git checkout podcast_04_patterns`
 
-### Интересные статьи:
+#### Интересные статьи:
 - [React Patterns](https://reactpatterns.com)
 
-## React Videocast #3: React 16.8 Hooks RELEASE! (Реакт Хуки. Официальный релиз):
+---
+
+### React Videocast #3: React 16.8 Hooks RELEASE! (Реакт Хуки. Официальный релиз):
 В этом подкасте мы с вами рассмотрим все хуки, которые были добавлены в новый релиз библиотеки React 16.8. Рассмотрим каким образом их использование полностью сравнивает в использовании Классовые и Функциональные React-компонентов. А так же разберём их возможности, особенности и использование на реальных примерах.
 
 Описанные хуки:
@@ -107,10 +124,10 @@
 - **useImperativeHandle** - Кастомизирует значение инстанса, которое предоставляется родителем при использовании ref.
 - **useDebugValue** - Создаёт лейбл для пользовательских Хуков.
 
-### Ветки Подкаста:
+#### Ветки Подкаста:
 - `git checkout podcast_03_hooks`
 
-### Интересные статьи:
+#### Интересные статьи:
 - [React Hooks A Complete Introduction (Полное введение в Хуки)](https://youtu.be/X6j7Y7tp3_c)
 - [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [React v16.8: The One With Hooks](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html)
@@ -119,7 +136,9 @@
 - [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
 - [Awesome React Hooks](https://github.com/rehooks/awesome-react-hooks)
 
-## React Videocast #2: React Hooks A Complete Introduction (Полное введение в Хуки):
+---
+
+### React Videocast #2: React Hooks A Complete Introduction (Полное введение в Хуки):
 В этом подкасте мы с вами рассмотрим такое понятие как **React Hook (Хук)**. Разберёмся зачем они нужны, синтаксис их создания, использования, а так же их особенности. Рассмотрим каким образом они расширяют функциональность и возможности функциональных Реакт-компонентов. Представленные хуки делятся на базовые и дополнительные, но мы с вами рассмотрим только базовые. Так как именно базовые хуки с большей вероятностью могут появится в ближайших обновлениях библиотеки React.
 К базовым хукам можно отнести:
 - **useContext** - Хук для использования контекста.
@@ -128,19 +147,21 @@
 
 А так же в небольшое дополнение мы рассмотрим создание пользовательских хуков.
 
-### Ветки Подкаста:
+#### Ветки Подкаста:
 - `git checkout podcast_02_useContext`
 - `git checkout podcast_02_useState`
 - `git checkout podcast_02_useEffect`
 - `git checkout podcast_02_customHooks`
 
-### Интересные статьи:
+#### Интересные статьи:
 - [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
 - [useHooks](https://usehooks.com/)
 - [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
 
-## React Videocast #1: React 16.6 New Features (Новые возможности):
+---
+
+### React Videocast #1: React 16.6 New Features (Новые возможности):
 В этом подкасте мы с вами поговорим о том что нового появилось в представленной версии реакта 16.6.0.
 В данном обновлении можно отметить 3 очень интересные фичи, которые мы с вами рассмотрим:
 - **static contextType** - Статическое свойство для работы с контекстом.
@@ -150,7 +171,7 @@
 Так же, в не большое дополнение, мы рассмотрим ещё один статический метод:
 - **getDerivedStateFromError** - Это улучшенная функциональность метода *componentDidCatch* для отлавливания ошибок рендеринга в дочерних компонентах.
 
-### Ветки Подкаста:
+#### Ветки Подкаста:
 - `git checkout podcast_01_context_start`
 - `git checkout podcast_01_context_end`
 - `git checkout podcast_01_memo_start`
@@ -159,7 +180,7 @@
 - `git checkout podcast_01_lazy_end`
 - `git checkout podcast_01_getDerivedStateFromError_end`
 
-### Интересные статьи:
+#### Интересные статьи:
 - [React v16.6.0: lazy, memo and contextType](https://reactjs.org/blog/2018/10/23/react-v-16-6.html)
 - [Understanding React “Suspense”](https://medium.com/@baphemot/understanding-react-suspense-1c73b4b0b1e6)
 - [Sneak Peek: Beyond React 16](https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html)
