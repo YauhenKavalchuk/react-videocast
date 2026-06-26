@@ -19,7 +19,6 @@
 [<img alt="webDev | Instagram" src="https://img.shields.io/badge/instagram-E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][instagram]
 [<img alt="webDev | LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
 [<img alt="webDev | Twitter" src="https://img.shields.io/badge/twitter-1DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][twitter]
-[<img alt="webDev | VK" src="https://img.shields.io/badge/vk-4680C2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][vk]
 
 [youtube]: https://youtube.com/YauhenKavalchuk
 [instagram]: https://instagram.com/YauhenKavalchuk
