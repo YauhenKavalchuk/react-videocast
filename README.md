@@ -3,7 +3,6 @@
 
 ### Поддержать развитие канала:
 [<img alt="webDev | YouTube Sponsor" src="https://img.shields.io/badge/Become a sponsor-F70000.svg?&style=for-the-badge&logo=youtube&logoColor=fff" />][sponsor]
-[<img alt="webDev | Patreon" src="https://img.shields.io/badge/Become a patron-EF6451.svg?&style=for-the-badge&logo=patreon&logoColor=fff" />][patron]
 
 ---
 
@@ -25,10 +24,8 @@
 [youtube]: https://youtube.com/YauhenKavalchuk
 [instagram]: https://instagram.com/YauhenKavalchuk
 [linkedin]: https://linkedin.com/in/YauhenKavalchuk
-[vk]: https://vk.com/YauhenKavalchuk
 [twitter]: https://twitter.com/YauhenKavalchuk
 [sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
-[patron]: https://www.patreon.com/YauhenKavalchuk
 
 ### React Videocast #7: React мемоизация: memo, useMemo, useCallback:
 в данном выпуске мы подробно разберём, что представляют собой **React.memo**, **useCallback** и **useMemo**. Рассмотрим, в чём между ними сходство, чем они отличаются, где применяются, как связаны друг с другом. А так же варианты того, когда данные функции нужно применять, а когда от этого можно отказаться.
